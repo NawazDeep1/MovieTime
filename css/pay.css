@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  body{
+    background: url("../images/background.jpg");
+    margin: 0 10px;
+  }
+  
+  .payment{
+    background: transparent;
+    max-width: 360px;
+    margin: 80px auto;
+    height: auto;
+    padding: 35px;
+    padding-top: 50px;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  #payment_price{
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    margin-top: 100px;
+    color: black;
+  }
+  
+  label{
+    display: block;
+    color: maroon;
+    font-weight: bold;
+    margin-bottom: 6px;
+      }
+  
+input[type=text]
+{
+  padding: 10px;
+  width: 60%;
+}
+
+input[type=button]
+{
+	padding: 10px;
+	border-radius: 15px;
+  color: #fff;
+  width: 40%;
+  font-weight: bold;
+  background-color: #800000;
+
+}
+
+input[type=submit]
+{
+	padding: 10px;
+	border-radius: 15px;
+  font-size: 16px;
+  color: #fff;
+  width: 40%;
+  font-weight: bold;
+  background-color: #800000;
+
+}
+ 
+input[type=button]:hover
+{
+
+  background-color: red;
+
+}
+input[type=submit]:hover
+{
+
+  background-color: red;
+
+}
+
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width:  70px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+  }
+  .fa-facebook {
+	background: #3B5998;
+	color: white;
+  }
+  
+  .fa-twitter {
+	background: #55ACEE;
+	color: white;
+  }
+  
+  .fa-google {
+	background: #dd4b39;
+	color: white;
+  }
+  .fa-instagram {
+	background: #125688;
+	color: white;
+  }
+  
+  .fa:hover {
+	  opacity: 0.7;
+  }
+  
+  .fa-skype {
+	background: #00aff0;
+	color: white;
+  }
+
+footer{
+	background-color:#333;
+	color:#fff;
+	text-align:center;
+	padding:20px;
+	margin-top:30px;
+}
+
+input + p 
+{
+	font-size: 14px;
+  
+  font-weight: bold;
+	color: black;
+	visibility: hidden;
+	margin: 0;
+}
+input.invalid + p 
+{
+	visibility: visible;
+	height:auto;
+	margin-bottom: 15px;
+}
+
+

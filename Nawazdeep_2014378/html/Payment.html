@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/2cdfe99d0d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/pay.css">
+	<script src="../js/pay.js"></script>
+	
+    <title>Payment</title>
+</head>
+<body>  
+    <h1 id="payment_price"></h1>
+    <div class="payment">    
+        <div class="credit-card">
+            <form id="payment_info" >
+                <label for="card-number">*Card Number</label>
+                <input type="text" name="card_number" size="50px" placeholder="---- ---- ---- ----">
+                <p>Enter a 16 digit valid card number</p>
+                <label for="CVC">*CVV</label>
+                <input type="text" name="cvc" size="50px" placeholder="***">
+                <p>Please enter 3 digit CVC</p>
+                <label for="name-on-card">*Name on Card</label>
+                <input type="text" name="name_on_card" size="50px" placeholder="Name on the Card">
+                <p>Please enter valid name</p>
+                <label for="expiration">*Expiration</label>
+                <input type="text" name="expire" placeholder="MM/YY" size="50px">
+                <p>Please enter valid Expire Date</p>
+                <input type="button" name="clear" value="Clear" onclick="tb_clear()">
+                <br>
+                <br>
+                <input type="checkbox" name="terms_conditions">
+                <label for="terms">*Agree to Terms and Conditions</label>
+            </form>
+        </div>
+              
+            <div >
+                <input type="submit" value="pay" onclick="validate()" >
+            </div> 
+     
+          </div>
+        </div>
+      </div>
+
+    
+		<footer>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-skype"></a>
+
+			<h6>Nawaz Deep Singh Copyright &copy; - Montreal</h6>
+        </footer>
+        
+</body>
+
+
+</html>

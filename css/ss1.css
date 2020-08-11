@@ -1,0 +1,155 @@
+body{
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #fff;
+	background-image: url('../images/cinema.jpg');
+	background-size:cover;
+	margin: auto;
+	padding: 0%;
+}
+
+
+.wrapper{
+	background:rgba(180, 71, 44, 0.7);
+	padding:30px;
+	width:250px;
+	margin:auto;
+	margin-top:80px;
+	height:400px;
+	margin-left:600px;
+}
+
+.wrapper .header{
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	display: flex;
+	justify-content: space-between;
+    color: #800000;
+    background: transparent;
+}
+.header .logo p{
+	font-size: 30px;
+	font-weight: 600;
+
+	font-family: 'Merienda', cursive;
+}
+
+.container{
+	
+		color:transparent;
+		background: transparent;
+		
+}
+
+
+.container a{
+	
+	display: block;
+		width:80%;
+		margin:auto;
+		overflow:hidden;
+	text-decoration: none;
+	font-weight: bold;
+	color: maroon;
+	font-size: 30px;
+
+}
+
+
+form{
+	width:240px;
+	text-align:center;
+	
+}
+input
+{
+	margin: 0 auto 30px;
+	width:240px;
+	text-align:center;
+	background:transparent;
+	border:none;
+	border-bottom:1px solid #fff;
+	font-family:'play', sans-serif;
+	font-size:16px;
+	font-weight:200px;
+	padding:10px 0;
+	transition:border 0.5s;
+	outline:none;
+	color:#fff;
+	
+}
+
+.login h1{
+color: #800000;
+}
+input[type=submit]
+{
+	border:none;
+	width:190px;
+	background:maroon;
+	color:#fff;
+	font-size:16px;
+	padding:5px ;
+	line-height:25px;
+	border-radius:15px;
+	cursor:pointer;
+	
+}
+input[type=submit]:hover
+{
+	color:#fff;
+	background-color:red;
+}
+
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 40px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+  }
+  .fa-facebook {
+	background: #3B5998;
+	color: white;
+  }
+  
+  .fa-twitter {
+	background: #55ACEE;
+	color: white;
+  }
+  
+  .fa-google {
+	background: #dd4b39;
+	color: white;
+  }
+  .fa-instagram {
+	background: #125688;
+	color: white;
+  }
+  
+  .fa:hover {
+	  opacity: 0.7;
+  }
+  
+  .fa-skype {
+	background: #00aff0;
+	color: white;
+  }
+
+footer{
+	background-color:#333;
+	color:#fff;
+	text-align:center;
+	padding:20px;
+	margin-top:30px;
+}
+
+
+
+
+
+
+
+
+
+
